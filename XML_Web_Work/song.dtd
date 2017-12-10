@@ -1,0 +1,24 @@
+﻿<!ELEMENT albums (album)+>
+<!ELEMENT album	(information, songlist, introduce)>
+<!ELEMENT information (title, userscore, artist, genre, date, sales)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT userscore (#PCDATA)>
+<!ELEMENT artist (#PCDATA)>
+<!ELEMENT genre (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT sales (#PCDATA)>
+<!ELEMENT songlist (songs)+>
+<!ELEMENT songs (songnum, song, writer, composition, arrange)>
+<!ELEMENT songnum (#PCDATA)>
+<!ELEMENT song (#PCDATA)>
+<!ELEMENT writer (#PCDATA)>
+<!ELEMENT composition (#PCDATA)>
+<!ELEMENT arrange (#PCDATA)>
+<!ELEMENT introduce (total, review)>
+<!ELEMENT total (#PCDATA)>
+<!ELEMENT review (rvsong)+>
+<!ELEMENT rvsong (num, song, story)>
+<!ELEMENT num (#PCDATA)>
+<!ELEMENT song (#PCDATA)>
+<!ELEMENT story (#PCDATA)>
+

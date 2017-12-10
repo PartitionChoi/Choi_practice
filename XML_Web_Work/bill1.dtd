@@ -1,0 +1,24 @@
+<!NOTATION jpeg SYSTEM "imageviewer">
+<!ENTITY pic SYSTEM "¿µ¼öÁõ.jpg" NDATA jpeg>
+<!ELEMENT bills (bill)+>
+<!ELEMENT bill (store, things, total)>
+<!ELEMENT store (billimg, storename, address, storenum, CEO, tel+)>
+<!ELEMENT billimg EMPTY>
+<!ATTLIST billimg img ENTITY #REQUIRED>
+<!ELEMENT storename (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT storenum (#PCDATA)>
+<!ELEMENT CEO (#PCDATA)>
+<!ELEMENT tel (#PCDATA)>
+<!ELEMENT things (thing)+>
+<!ELEMENT thing (obj, tax, price, stock, tprice)+>
+<!ELEMENT obj (#PCDATA)>
+<!ELEMENT tax (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT stock (#PCDATA)>
+<!ELEMENT tprice (#PCDATA)>
+<!ELEMENT total (taxfree, taxadd, vat, totalprice)>
+<!ELEMENT taxfree (#PCDATA)>
+<!ELEMENT taxadd (#PCDATA)>
+<!ELEMENT vat (#PCDATA)>
+<!ELEMENT totalprice (#PCDATA)>

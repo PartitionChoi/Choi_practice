@@ -1,0 +1,83 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/AppTheme.FragmentContainer"
+    tools:context=".MainActivity$LLSettingsFragment"
+    android:background="@color/gray1"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dip"
+        android:gravity="top"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="227dp"
+                android:layout_height="61dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="casual"
+                    android:text="Time // Distance // Speed"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/Graph"
+                    android:layout_width="match_parent"
+                    android:layout_height="28dp"
+                    android:fontFamily="casual"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button_Ride"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="9.99"
+                android:backgroundTint="@color/blue5"
+                android:fontFamily="casual"
+                android:text="Ride"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/button_Stop"
+                android:layout_width="53dp"
+                android:layout_height="match_parent"
+                android:layout_weight="39.98"
+                android:backgroundTint="@color/blue5"
+                android:fontFamily="casual"
+                android:text="Stop"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="461dp"
+            android:layout_weight="0.45" />
+
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE albums SYSTEM "song.dtd">
+<albums>
+	<album>
+		<information>
+			<title>I'M</title>
+			<userscore>9.1</userscore>
+			<artist>임창정</artist>
+			<genre>발라드</genre>
+			<date>20160906</date>
+			<sales>인터파크INT</sales>
+		</information>
+
+		<songlist>
+			<songs>
+				<songnum>1</songnum>
+				<song>노래 한번 할게요</song>
+				<writer>주찬양, 임창정</writer>
+				<composition>주찬양, Command Freaks</composition>
+				<arrange>Command Freaks</arrange>
+			</songs>
+
+			<songs>
+				<songnum>2</songnum>
+				<song>이별 후</song>
+				<writer>김대현, 최명희, 임창정</writer>
+				<composition>김대현, 최명희</composition>
+				<arrange>김대현, 최명희</arrange>
+			</songs>
+
+			<songs>
+				<songnum>3</songnum>
+				<song>그 곳에 멈춰서</song>
+				<writer>임창정</writer>
+				<composition>이동원, 권규진</composition>
+				<arrange>권규진</arrange>
+			</songs>
+		</songlist>
+
+		<introduce>
+			<total>'명품발라더', '명품보이스', '믿고 듣는 가수' 등등 어느 호칭 하나......</total>
+
+			<review>
+				<rvsong>
+					<num>1</num>
+					<song>노래 한번 할게요</song>
+					<story>누구나 한번쯤은 경험했을 법한 이별얘기....</story>
+				</rvsong>
+				<rvsong>
+					<num>2</num>
+					<song>이별 후</song>
+					<story>지나간 인연에 대한 아쉬움을 담담하게 노래....</story>
+				</rvsong>
+				<rvsong>
+					<num>3</num>
+					<song>그 곳에 멈춰서</song>
+					<story>'그곳에 멈춰서'는 임창정 최고 히트곡 소주한잔을.....</story>
+				</rvsong>	
+			</review>
+		</introduce>
+
+	</album>
+</albums>

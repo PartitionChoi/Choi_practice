@@ -1,0 +1,22 @@
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_scan"
+        android:orderInCategory="10"
+        android:icon="@android:drawable/ic_menu_view"
+        android:showAsAction="always|withText"
+        android:title="@string/connect"/>
+
+    <item
+        android:id="@+id/action_discoverable"
+        android:orderInCategory="40"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:title="@string/discoverable" />
+    <item
+        android:id="@+id/action_auto"
+        android:orderInCategory="41"
+        android:title="Auto Lock"
+        app:actionLayout="@layout/switch_item" />
+
+</menu>

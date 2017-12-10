@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE bills SYSTEM "bill1.dtd">
+<bills>
+	<bill>
+		<store> 
+		<billimg img ="영수증"/>
+		<storename> 지마트 (마린점) </storename>
+		<address> 부산 해운대구 마린시티 2로 33 </address>
+		<storenum> 6071518095 </storenum>
+		<CEO> 김정원 </CEO>
+		<tel> 0517449911 </tel>
+		<tel> 0517449912 </tel>
+		</store>
+
+		<things>
+			<thing>
+				<obj>배1봉</obj>
+				<tax>면세</tax>
+				<price>7800</price>
+				<stock>1</stock>
+				<tprice>7800</tprice>
+			</thing>
+
+
+			<thing>
+				<obj>미나리</obj>
+				<tax>면세</tax>
+				<price>1980</price>
+				<stock>1</stock>
+				<tprice>1980</tprice>
+			</thing>
+
+
+			<thing>
+				<obj>찹쌀새알800g</obj>
+				<tax>과세</tax>
+				<price>4950</price>
+				<stock>1</stock>
+				<tprice>4950</tprice>
+			</thing>
+
+
+			<thing>
+				<obj>소가)아삭콩나물500g</obj>
+				<tax>과세</tax>
+				<price>1800</price>
+				<stock>1</stock>
+				<tprice>1800</tprice>
+			</thing>
+
+
+			<thing>
+				<obj>오)스위트콘198g</obj>
+				<tax>과세</tax>
+				<price>1400</price>
+				<stock>1</stock>
+				<tprice>1400</tprice>
+			</thing>
+		</things>
+
+
+		<total>
+			<taxfree>9780</taxfree>
+			<taxadd>7409</taxadd>
+			<vat>741</vat>
+			<totalprice>17930</totalprice>
+		</total>
+
+	</bill>
+
+</bills>
